@@ -10,8 +10,8 @@ Built for the Xponentium Full-Stack Developer Internship assessment.
 
 | Component | URL |
 |-----------|-----|
-| Frontend  | _add Vercel URL here_ |
-| Backend API | _add Render URL here_ |
+| Frontend  | https://news-pulse-five-omega.vercel.app/|
+| Backend API | https://news-pulse-backend-q30x.onrender.com |
 
 ---
 
@@ -25,8 +25,8 @@ Built for the Xponentium Full-Stack Developer Internship assessment.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/news-pulse.git
-cd news-pulse
+git clone https://github.com/aniket-dev30/News-pulse.git
+cd News-pulse
 ```
 
 ### 2. Database
