@@ -1,0 +1,5 @@
+feedparser
+trafilatura
+psycopg2-binary
+python-dotenv
+lxml_html_clean

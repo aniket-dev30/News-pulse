@@ -1,0 +1,45 @@
+# News Pulse — root .gitignore
+# Covers /scraper (Python) and /backend (Node) at the repo root.
+# /frontend has its own .gitignore (from create-next-app) which is more
+# specific to Next.js and is respected separately by Git.
+
+# ── Environment variables (never commit secrets / DB connection strings) ──
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# ── Python (scraper) ──
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# ── Node (backend) ──
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# ── Build/output artifacts ──
+dist/
+build/
+*.log
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Misc ──
+*.tmp
+.cache/
